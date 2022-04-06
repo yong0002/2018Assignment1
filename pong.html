@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <style>
+            @import url(style.css);
+            p.highlight {
+                color: red;
+            }
+            svg {
+                background-color: rgb(41, 41, 36);
+            }
+        </style>
+        <script src="svgelement.js"></script>
+        <script src="observable.js"></script>
+        <script src="pong.js"></script>
+    </head>
+    <body>
+        <h1>Pong</h1>
+       <div>
+           Welcome to OYG's PONG GAME
+           <br />
+           <br />
+           How to play?
+           <br />
+           1)First you must choose which level do you want
+           <br />
+           <br />
+           2)Click and move the blue paddle
+           <br />
+           <br />
+           3)The first person to reach 11 points will WIN the game
+           <br />
+           <br />
+           Level 1: GG EZ WIN
+           <button type="button" id="BalltoAI">Click this to start</button>
+            <script type="text/javascript"></script>
+           
+            <br />
+           <br />
+           <br />
+            Level 2: HMM KINDA EASY, NO Challenge
+            
+            <button type="button" id="BalltoAI2">Click this to start</button>
+            <script type="text/javascript"></script>
+            <br />
+           <br />
+           <br />
+           
+            Level 3: Try the next one if you think it is EZ
+            <button type="button" id="BalltoAI3">Click this to start</button>
+            <script type="text/javascript"></script>
+            <br />
+            <br />
+            <br />
+            Level GODLIKE: Guess the next position of the ball??
+            <br />
+            <br />
+            <br />
+            ###Auto Refresh only when you finish the game(5 seconds)
+
+            <button type="button" id="BalltoAI4">Click this to start</button>
+            <script type="text/javascript"></script>
+            <input type="button" id = "Refresher" value="Click this if you are careless /F5" onClick="window.location.reload()">
+            <br />
+            <br />
+            
+       </div>
+      
+        <svg id="canvas" width="600" height="600"/>
+    
+    
+    </body>
+</html>

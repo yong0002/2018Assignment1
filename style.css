@@ -1,0 +1,269 @@
+BODY, H2, H3, H4, H5, H6, TH, TD {
+font-family: 'Courier New', Courier, monospace;
+font-weight: 1000;
+background-image: url(background-18.jpg)
+
+}
+H1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center
+
+}
+#canvas
+{   display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+div{
+    width: 300px ;
+    height: 530px;
+    color:palegoldenrod;
+    padding: 10px ;
+    border: 5px solid black;
+    margin-bottom: auto;
+    position: absolute;
+    content: 5px solid gray; }
+    
+/* Credits to https://codepen.io/arximughal/pen/LEpoOJ */
+#BalltoAI{
+        
+        background-color: #004A7F;
+        position: absolute;
+        top: 46%;
+        left:10;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        border: none;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: block;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 13px;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        -webkit-animation: glowing 1500ms infinite;
+        -moz-animation: glowing 1500ms infinite;
+        -o-animation: glowing 1500ms infinite;
+        animation: glowing 1500ms infinite;
+      }
+      @-webkit-keyframes glowing {
+        0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+        50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+        100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+      }
+      
+      @-moz-keyframes glowing {
+        0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+        50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+        100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+      }
+      
+      @-o-keyframes glowing {
+        0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+        50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+        100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+      }
+      
+      @keyframes glowing {
+        0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+        50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+        100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+      }
+
+  #BalltoAI2{
+   
+        background-color: #004A7F;
+        position: absolute;
+        top: 59%;
+        left:10;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        border: none;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: block;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 13px;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        -webkit-animation: glowing 1500ms infinite;
+        -moz-animation: glowing 1500ms infinite;
+        -o-animation: glowing 1500ms infinite;
+        animation: glowing 1500ms infinite;
+      }
+      @-webkit-keyframes glowing {
+        0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+        50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+        100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+      }
+      
+      @-moz-keyframes glowing {
+        0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+        50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+        100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+      }
+      
+      @-o-keyframes glowing {
+        0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+        50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+        100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+      }
+      
+      @keyframes glowing {
+        0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+        50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+        100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+      }
+
+
+ #Refresher{
+   
+  background-color: #004A7F;
+  position: absolute;
+  top: 90%;
+  left:1200;
+  -webkit-border-radius: 20px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  height:100px;
+  width:300px;
+  /* padding: 5px 5px; */
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+#BalltoAI3{
+   
+  background-color: #004A7F;
+  position: absolute;
+  top: 72%;
+  left:10;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 13px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+#BalltoAI4{
+
+background-color: #004A7F;
+position: absolute;
+top: 85.5%;
+left:10;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+border: none;
+color: #FFFFFF;
+cursor: pointer;
+display: block;
+font-family: 'Courier New', Courier, monospace;
+font-size: 13px;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+-webkit-animation: glowing 1500ms infinite;
+-moz-animation: glowing 1500ms infinite;
+-o-animation: glowing 1500ms infinite;
+animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+
+
+
+
+ 
